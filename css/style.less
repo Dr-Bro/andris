@@ -1,0 +1,161 @@
+body{
+	text-align: center;
+	background:rgb(240,227,195);
+	margin: 0;
+}
+
+header{
+	background: rgb(48,30,30);
+	div{
+		padding: 50px 0 0 0;
+	}
+	img{
+		
+		height: 95vh;
+	}
+}
+
+
+nav 
+{	position: fixed;
+    top: 0px;
+    width: 100%;
+    background: rgb(48,30,30);
+    opacity: 0.5;
+    &:hover{
+    	opacity:1;
+    	transition: 0.5s;
+    }
+	ul{ 
+		li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 35px 0px 35px;
+	color: rgb(164,151,145);
+	font-size: 25px;
+	border-bottom: 1px solid rgb(48,30,30);
+	&:hover{
+	border-bottom: 1px solid #8BC34A;
+	opacity:1;
+    transition: 0.5s;
+	}}
+}
+}
+
+section{
+	display: inline-block;
+}
+
+
+
+#content-1{
+	width: 27%;
+	//background: black;
+	display: inline-flex;
+    float: left;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 450px;
+    img{
+    	border-radius: 50%;
+    }
+    ul{
+    	li{
+    		    list-style: none;
+    		    background: rosybrown;
+    		    padding: 5px 5px;
+    		    margin-left: -40px;
+    		    border-left: 5px solid rosybrown;
+    		    border-right:5px solid rosybrown;
+    		    width: 340px;
+
+
+    		    &:hover{
+    		    	  border-left: 5px solid lightgreen;
+    		    	  border-right:5px solid lightgreen;
+
+    		    }
+    	}
+    }
+}
+
+.rubric{
+	li{
+		padding: 0px;
+	}
+}
+
+#content-2{
+	width: 70%;
+}
+
+header img {
+  
+}
+
+.about_me{
+	display: inline-block;
+	width: 300px;
+	text-align: justify;
+}
+
+.portfollio{
+	display: flex;
+	flex-wrap: wrap;
+	div{
+		background: url('../image/ZvfDnr4y1J8.jpg');
+		width: 300px;
+		height: 350px;
+		//display: inline-block;
+		margin:5px;
+		background-size: cover;
+
+				p{
+			opacity: 0;
+			width: inherit;
+			height: inherit;
+			margin-top: 0px;
+			display: table-cell;
+			vertical-align: middle;
+			color: bisque;
+			transition: 1s ease-out ;
+
+			&:hover{
+				opacity:1;
+				background: rgba(25,55,55,0.6);
+			}
+		}
+	}
+	img{
+		width: 350px;
+		height: 350px;
+	}
+
+}
+
+.service{
+	display: inline-block;
+    width: 33%;
+}
+
+section.section.parallax {
+  height: 600px;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.section.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.section.parallax-1 {
+  background-image: url("../image/2218_nastolcomu.jpg");
+}

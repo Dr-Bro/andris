@@ -1,0 +1,11 @@
+﻿http://cdn.rizvn.net/wp-content/uploads/2013/02/template-jsn-vintage-joomla-2-5-and-3-0.jpg
+шапка
+цвета шапки:
+вверх: rgb(48,30,30);
+menu: rgb(164,151,145);
+body: rgb(240,227,195);
+body-text: rgb(79,51,27) or rgb(120,105,82) or rgb(89,73,60)
+social: rgb(24,16,14);
+
+http://www.en-fleurs.ru/index.php?page=interernye-kompozitsii
+рубрики слева 
